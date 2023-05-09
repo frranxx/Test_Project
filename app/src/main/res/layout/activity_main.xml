@@ -12,9 +12,18 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="Test App"
+        android:text="Math Test!"
         android:textColor="@color/black"
         android:textSize="35sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Rules: 1- You Have To Finish The Test On 20 Seconds (If You Cannot Finish The Test In 20 Seconds, You Will Fail!)                      2- You Have To Answer At Least 3 Of Questions Correct In Order To Pass The Test.  *GOOD LUCK!*"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/Start_Btn"
