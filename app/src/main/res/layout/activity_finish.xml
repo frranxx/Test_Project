@@ -24,7 +24,7 @@
         android:layout_below="@+id/Congrats_Txt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Your Result is : xx%"
+        android:text="Your Result Is: xx%"
         android:textColor="@color/black"
         android:textSize="20sp" />
     <TextView
@@ -47,6 +47,26 @@
         android:text="Your Wrong Answers: x"
         android:textColor="@color/black"
         android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Answered_Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Wrong_Txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Answered: x"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Passed_Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Answered_Txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Passed :x"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/Finish_Btn"
@@ -55,7 +75,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/white"
-        android:layout_below="@+id/Wrong_Txt"
+        android:layout_below="@+id/Passed_Txt"
         android:layout_marginTop="20dp"
         android:text="Finish"
         android:textColor="@color/black" />

@@ -3,7 +3,13 @@ package com.example.test;
 public class Questions {
   private String Questions, Answer1, Answer2, Answer3, Answer4;
   private int Correct_Ans_Num;
+  private int Correct,Wrong,Answered;
 
+    public Questions(int correct, int wrong, int answered) {
+        Correct = correct;
+        Wrong = wrong;
+        Answered = answered;
+    }
     public Questions(String questions, String answer1, String answer2, String answer3, String answer4, int correct_Ans_Num) {
         Questions = questions;
         Answer1 = answer1;
@@ -11,6 +17,30 @@ public class Questions {
         Answer3 = answer3;
         Answer4 = answer4;
         Correct_Ans_Num = correct_Ans_Num;
+    }
+
+    public int getCorrect() {
+        return Correct;
+    }
+
+    public void setCorrect(int correct) {
+        Correct = correct;
+    }
+
+    public int getWrong() {
+        return Wrong;
+    }
+
+    public void setWrong(int wrong) {
+        Wrong = wrong;
+    }
+
+    public int getAnswered() {
+        return Answered;
+    }
+
+    public void setAnswered(int answered) {
+        Answered = answered;
     }
 
     public String getQuestions() {

@@ -57,12 +57,33 @@
         android:text="Your Wrong Answers: x"
         android:textColor="@color/black"
         android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Ans_Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Wrong2_Txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Answered: x"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Passed2_Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ans_Txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Passed: x"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
 
     <Button
         android:id="@+id/Try_Again_Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Wrong2_Txt"
+        android:layout_below="@+id/Passed2_Txt"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/white"
